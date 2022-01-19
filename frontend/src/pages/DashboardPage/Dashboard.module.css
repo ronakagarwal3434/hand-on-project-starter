@@ -1,0 +1,44 @@
+.container {
+  width: 85%;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.showcase {
+  background-color: #c3e7fd;
+  border-radius: 10px;
+  display: flex;
+}
+
+.showcaseImg {
+  width: 35%;
+  display: flex;
+}
+
+.semicircle {
+  width: 25%;
+  height: 100%;
+  background: #d3b4f6;
+  border-radius: 1000px 0px 0px 1000px;
+  transform: rotate(-180deg);
+}
+
+.showcaseInfo {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 45px;
+}
+
+.heading {
+  font-size: 24px;
+  line-height: 31px;
+  margin: 50px 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
