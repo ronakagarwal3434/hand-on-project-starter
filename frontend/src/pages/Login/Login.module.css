@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  background-color: #f7f8fa80;
+  /* height: 100vh; */
+  padding: 10%;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: -0.02em;
+  color: #1e272e;
+  margin: 5% 0;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  color: #566474;
+}
+
+.right {
+  width: 50%;
+  background-color: #fff;
+  /* height: 100vh; */
+  box-sizing: border-box;
+  padding: 10%;
+}

@@ -8,3 +8,7 @@
   font-size: 16px;
   border: none;
 }
+
+.fullWidth {
+  width: 100%;
+}

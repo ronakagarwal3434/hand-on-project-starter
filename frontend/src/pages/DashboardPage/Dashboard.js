@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../../components/Button/Button";
-import Navbar from "../../components/Navbar/Navbar";
 import DashboardStyles from "./Dashboard.module.css";
 import bgremovePic from "../../images/bgremove.svg";
 import Card from "../../components/Card/Card";
@@ -8,7 +7,6 @@ import Card from "../../components/Card/Card";
 function Dashboard() {
   return (
     <div>
-      <Navbar />
       <div className={DashboardStyles.container}>
         <div className={DashboardStyles.showcase}>
           <div className={DashboardStyles.showcaseImg}>
